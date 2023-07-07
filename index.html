@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="icon" href="./assets/SquareLogo.jpg">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Mohamed Sellami</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Mohamed Sellami</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Gallery</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Welcome.gif" alt="Hassen Gadacha profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">SELLAMI Mohamed</h1>
+        <p class="section__text__p2">Graphic Designer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/mohamed-sellami-774656249'"
+          />
+          <img
+            src="./assets/instagram.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/unknown_sellami'"
+          />
+          <img
+          src="./assets/facebook.png"
+          alt="My Github profile"
+          class="icon"
+          onclick="location.href='https://www.facebook.com/UNKNOWN.SELLAMI'"
+        />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/Contact.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          
+          
+          <div class="text-container">
+            <p >
+              Passionate about design and constantly eager for new challenges,
+              I AM ONE OF THE YOUTH WHOM ARE MAKING SOME GRAPHIC DESIGN.
+              I CAN'T CALL MYSELF A PROFESSIONAL NOR A BEGINNER, SO I MADE THIS PORTFOLIO FOR YOU TO JUDGE.
+              HAVE A TOUR AND MAKE YOUR CALL.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#cosmo'"
+      />
+    </section>
+      <section id="cosmo">
+        <p class="section__text__p1">Explore My Work With</p>
+        <h1 class="title">Voire Tunisie</h1>
+        <div class="images-box">
+                    <img src="assets\MASQUE.png" alt="picture 01">
+                    <img src="assets\serum .png" alt="picture 02">
+                    <img src="assets\shampoing.png" alt="picture 03">
+                    <img src="assets\Huile de massage articulation.png" alt="picture 04">
+                    <img src="assets\pack4.png" alt="picture 05">
+        </div>
+         
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#gallery'"
+        />
+      </section>
+    
+    <section id="gallery">
+        <p class="section__text__p1">toutici.tn & infotec.tn</p>
+        <h1 class="title">Gaming Equipment</h1>
+        <div class="images-box">
+                    <img src="assets\sourie X 2.png" alt="picture 01">
+                    <img src="assets\PC PORTABLE MSI infotec.png" alt="picture 02">
+                    <img src="assets\pc msi 2.png" alt="picture 03">
+                    <img src="assets\ECRAN MSI PRO infotec.png" alt="picture 04">
+                    <img src="assets\ECRAN MSI PRO infotec 2.png" alt="picture 05">
+                    <img src="assets\Ecran Gamer infotec.png" alt="picture 06">
+                    <img src="assets\clavier alloy 2.png" alt="picture 07">
+                    <img src="assets\casque XTRIKE ME infotec.png" alt="picture 08">
+                    
+        </div>
+         
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#gymevent'"
+        />
+    </section>
+    <section id="gymevent">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">GYM Events</h1>
+      <div class="images-box">
+                  <img src="assets\MEDITATION.png" alt="picture 01">
+                  <img src="assets\yoga.png" alt="picture 02">
+                  <img src="assets\zumba.png" alt="picture 03">
+                  <img src="assets\belly.png" alt="picture 04">
+      </div>
+       
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#diff'"
+      />
+  </section>
+  <section id="diff">
+    <p class="section__text__p1"> </p>
+    <h1 class="title">SOME SOLO FOR DIFFERENT BRANDS</h1>
+    <div class="images-box">
+                <img src="assets\ecouteur sans fil hoco 2nd try .png" alt="picture 01">
+                <img src="assets\ecouteur sans fil hoco 2 .png" alt="picture 02">
+                <img src="assets\eyeliner.png" alt="picture 03">
+                <img src="assets\tout ici 2.png" alt="picture 04">
+                <img src="assets\tout ici.png" alt="picture 05">
+              
+    </div>
+     
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#anime'"
+    />
+</section>
+<section id="anime">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Anime Posters</h1>
+  <div class="images-box">
+              <img src="assets\dd.jpg" alt="picture 01">
+              
+              <img src="assets\asta 30_20 finished.jpg" alt="picture 03"><Br>
+              <img src="assets\medoria finished.jpg" alt="picture 04">
+              <img src="assets\gone.jpg" alt="picture 02">
+  </div>
+   
+  <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#contact'"
+  />
+</section>
+    <section id="contact">
+      <p class="section__text__p1">Let's Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="container">
+        <form method="POST">
+            <div class="left">
+                <input type="text" placeholder="Your name" name="name" required>
+                <input type="tel" placeholder="Your phone number" name="phone" required>
+                <input type="email" placeholder="Your email address" name="email"  required>
+                <input type="text" placeholder="The subject" name="subject"  required>
+            </div>
+            <div class="right">
+                <textarea name="message" placeholder="Your message"></textarea>
+                <input type="submit" value="Send">
+            </div>
+        </form>
+    </div>
+</div>
+    </section>
+    <footer>
+      
+      <hr><br>
+      <p>Gammarth, Tunis</p>
+      <p>Phone: +216 22 902 730</p>
+      <p>Mail: sellami.0118.mohamed@gmail.com</p><br>
+      <div id="socials-container">
+        <img
+          src="./assets/linkedin.png"
+          alt="My LinkedIn profile"
+          class="icon"
+          onclick="location.href='https://www.linkedin.com/in/mohamed-sellami-774656249'"
+        />
+        <img
+          src="./assets/instagram.png"
+          alt="My Github profile"
+          class="icon"
+          onclick="location.href='https://www.instagram.com/unknown_sellami'"
+        />
+        <img
+          src="./assets/facebook.png"
+          alt="My Github profile"
+          class="icon"
+          onclick="location.href='https://www.facebook.com/UNKNOWN.SELLAMI'"
+        />
+      <br><hr><br>
+      <p>Copyright &#169; 2023 SELLAMI Mohamed. All Rights Reserved.</p><br>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
